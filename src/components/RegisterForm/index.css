@@ -1,0 +1,110 @@
+.register-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 90%;
+  max-width: 1110px;
+  margin: auto;
+  background: #f7f3f240;
+}
+
+@media screen and (min-width: 992px) {
+  .register-form-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.converter-mobile-header {
+  color: #88c6f2;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 36px;
+}
+@media screen and (min-width: 768px) {
+  .converter-mobile-header {
+    display: none;
+  }
+}
+.converter-desktop-header {
+  color: #88c6f2;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  font-size: 32px;
+  line-height: 42px;
+}
+@media screen and (max-width: 767px) {
+  .converter-desktop-header {
+    display: none;
+  }
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 380px;
+}
+@media screen and (min-width: 992px) {
+  .registration-form {
+    width: 450px;
+    flex-shrink: 0;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    padding: 46px 32px 48px 32px;
+  }
+}
+
+.website-image {
+  width: 300px;
+}
+
+@media screen and (min-width: 992px) {
+  .website-image {
+    width: 60%;
+    max-width: 600px;
+    flex-shrink: 1;
+    margin-right: 20px;
+  }
+}
+
+.register-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.navigation-tag {
+  color: #00000070;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 10px;
+  margin: 0px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+.register-navigation-button {
+  color: #1663de;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+.nav-link {
+  text-decoration: none;
+}
